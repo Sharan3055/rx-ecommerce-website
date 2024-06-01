@@ -1,0 +1,23 @@
+.logo {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    /* border: 2px solid/ red; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+
+.my-btn {
+    background-color: white;
+    color: black;
+}
+
+.my-btn img {
+    height: 20px;
+}
+
+#signup-image {
+    margin-top: -80px !important;
+
+}

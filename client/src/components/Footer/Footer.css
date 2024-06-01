@@ -1,0 +1,89 @@
+.footer {
+    background-color: #2874f0;
+    color: #fff;
+    padding: 30px 30px;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-contact {
+    text-align: left;
+}
+
+.footer-contact div {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #ddd;
+}
+
+.google-map {
+    width: 50%;
+    height: 200px;
+    /* Adjust height as needed */
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    margin-bottom: 50px;
+
+}
+
+.footer-icons i {
+    margin-right: 20px;
+    /* Adjust the gap between icons */
+    cursor: pointer;
+}
+
+.footer-icons i:last-child {
+    margin-right: 0;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .phone-center {
+        text-align: center;
+    }
+}
+
+/* Add styles for horizontally aligned links */
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links ul li {
+    margin: 0 10px;
+    /* Adjust margin as needed */
+}
+
+.icon-gap {
+    margin-right: 20px;
+    /* Adjust the value as needed */
+}

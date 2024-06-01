@@ -1,0 +1,58 @@
+OrdersPage.css .custom-table {
+    background-color: #fff;
+}
+
+.dateSearch {
+    display: flex;
+    gap: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+}
+
+.custom-table th {
+    background-color: #143D59;
+    /* Yellow background for headers */
+    color: #333;
+    /* Dark text color */
+    font-weight: bold;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #ffffcc;
+    /* Light yellow background on hover */
+}
+
+.custom-table td,
+.custom-table th {
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+    /* Box shadow for 3D effect */
+}
+
+@media (max-width: 767px) {
+    .custom-table {
+        overflow-x: auto;
+        /* Horizontal scroll for small screens */
+    }
+}
+
+/* Style for the search input */
+.search-input {
+    width: 300px;
+    /* Adjust width as needed */
+    margin-bottom: 5px;
+}
+
+/* Positioning the search bar next to the "Orders" heading */
+.orders-heading {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.dateSearch {
+    /* border: 3px solid red; */
+    margin-bottom: 20px;
+
+}

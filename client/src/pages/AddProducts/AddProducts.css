@@ -1,0 +1,116 @@
+/* AddProducts.css */
+
+/* Styles for the container */
+.add-product-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(231, 221, 182, 0.5);
+    overflow: hidden;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    /* Set position relative for containing the sticky input fields */
+}
+
+/* Styles for the left section */
+.left-section {
+    padding: 20px;
+    background-color: #143D59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 165vh;
+}
+
+/* Styles for the right section */
+.right-section {
+    padding: 20px;
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+}
+
+/* Styles for labels */
+.add-product-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Add spacing between label and input field */
+    color: #333;
+    min-width: 120px;
+}
+
+/* Styles for input fields and selects */
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    /* Full width input fields */
+    position: sticky;
+    top: 10px;
+    /* Adjust the top position as needed */
+    background-color: #fff;
+    /* Ensure background color remains white */
+}
+
+/* Styles for focused input fields */
+.form-group input[type="text"]:focus,
+.form-group select:focus {
+    border-color: #143D59;
+    box-shadow: 0 0 10px #143D59;
+    color: #143D59;
+}
+
+/* Styles for the submit button */
+.btn-submit,
+.add-product-container .bts {
+    background-color: #143D59;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 204, 0, 0.3);
+}
+
+/* Styles for hover effect on buttons */
+.btn-submit:hover,
+.add-product-container .bts:hover {
+    background-color: #143D59;
+}
+
+/* Scrollbar styles */
+.add-product-container::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.add-product-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+.add-product-container::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.add-product-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the scrollbar thumb on hover */
+}

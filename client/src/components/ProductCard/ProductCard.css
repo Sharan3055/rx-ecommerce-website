@@ -1,0 +1,22 @@
+.productcard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-add-to-cart {
+    border: none;
+    color: white;
+    background-color: #FF9A75;
+    border-radius: 2px;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #995c46;
+}

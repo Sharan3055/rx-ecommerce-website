@@ -1,0 +1,21 @@
+.sale-container {
+    margin: 20px 0;
+    background-color: #ECECEC;
+}
+
+.sale-container img {
+    height: 70vh;
+}
+
+.sale-inside-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sale-data hr {
+    border-bottom: 5px solid #fe4c50;
+    border-top: 0;
+    opacity: 1;
+    width: 80%;
+}

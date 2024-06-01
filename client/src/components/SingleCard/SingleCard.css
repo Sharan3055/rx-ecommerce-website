@@ -1,0 +1,15 @@
+.scard-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.sc-center {
+    background-color: white;
+    padding: 10px;
+}
+
+.sc-zoomin:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

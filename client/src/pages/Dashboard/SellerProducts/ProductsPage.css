@@ -1,0 +1,54 @@
+/* ProductsPage.css */
+
+.custom-table {
+    background-color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+}
+
+.custom-table th {
+    background-color: #143D59 !important;
+    /* Yellow background for headers */
+    color: #fff !important;
+    /* Dark text color */
+    font-weight: bold;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #ffffcc;
+    /* Light yellow background on hover */
+}
+
+.custom-table td,
+.custom-table th {
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+    /* Box shadow for 3D effect */
+}
+
+.product-img {
+    max-width: 100px;
+    /* Adjust the maximum width of the image */
+    height: 100px;
+    /* Maintain aspect ratio */
+}
+
+@media (max-width: 767px) {
+    .custom-table {
+        overflow-x: auto;
+        /* Horizontal scroll for small screens */
+    }
+}
+
+.search-input {
+    width: 300px;
+    /* Adjust width as needed */
+    margin-bottom: 10px;
+}
+
+.order-ic {
+    font-size: 26px;
+    cursor: pointer;
+}
